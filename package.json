@@ -1,6 +1,6 @@
 {
   "name": "faked-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a fake promise that can be resolved and rejected programatically",
   "main": "index.js",
   "author": {
