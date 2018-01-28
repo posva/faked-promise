@@ -2,7 +2,7 @@ const fakePromise = require('..')
 
 describe('faked-promise', () => {
   test('can be resolved manually', async done => {
-    const [promise, resolve] = await fakePromise()
+    const [promise, resolve] = fakePromise()
     expect(async () => {
       try {
         await promise
@@ -14,8 +14,8 @@ describe('faked-promise', () => {
     resolve()
   })
   test('can be rejected manually', async done => {
-    const [promise, , reject] = await fakePromise()
-    await expect(async () => {
+    const [promise, , reject] = fakePromise()
+    expect(async () => {
       try {
         await promise
       } catch (err) {
