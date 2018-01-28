@@ -19,7 +19,20 @@
     "LICENSE",
     "README.md"
   ],
-  "keywords": [],
+  "keywords": [
+    "fake",
+    "faked",
+    "promised",
+    "generate",
+    "create",
+    "on",
+    "flow",
+    "custom",
+    "control",
+    "resolvable",
+    "rejectable",
+    "demand"
+  ],
   "license": "MIT",
   "devDependencies": {
     "codecov": "^3.0.0",
