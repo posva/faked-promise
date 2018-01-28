@@ -13,7 +13,7 @@ npm i faked-promise
 
 ## Usage
 
-faked-promise exports one single function that takes no arguments and returns a promise. That promise resolves into an array with 3 elements:
+faked-promise exports one single function that takes no arguments and returns an array with 3 elements:
 
 - A real promise
 - Its `resolve` callback
@@ -24,7 +24,7 @@ Meaning you can control exactly when the promise is resolved or rejected:
 ```js
 const fakePromise = require('faked-promise')
 
-const [promise, resolve, reject] = await fakePromise()
+const [promise, resolve, reject] = fakePromise()
 promise.then(() => {})
 resolve('any value')
 ```
