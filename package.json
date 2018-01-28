@@ -1,7 +1,7 @@
 {
   "name": "faked-promise",
   "version": "1.0.1",
-  "description": "Create a fake promise that can be resolved and rejected programatically",
+  "description": "Create a promise that can be resolved and rejected outside of it",
   "main": "index.js",
   "author": {
     "name": "Eduardo San Martin Morote",
