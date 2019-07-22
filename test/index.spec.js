@@ -1,19 +1,16 @@
 const fakePromise = require('..')
 
 describe('faked-promise', () => {
-  test('can be resolved manually', async done => {
+  it('can be resolved manually', async done => {
     const [promise, resolve] = fakePromise()
     expect(async () => {
-      try {
-        await promise
-        done()
-      } catch (err) {
-        throw err
-      }
+      await promise
+      done()
     }).not.toThrow()
     resolve()
   })
-  test('can be rejected manually', async done => {
+
+  it('can be rejected manually', async done => {
     const [promise, , reject] = fakePromise()
     expect(async () => {
       try {
