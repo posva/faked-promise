@@ -16,7 +16,7 @@
   },
   "files": [
     "index.js",
-    "dist",
+    "index.d.ts",
     "LICENSE",
     "README.md"
   ],
