@@ -3,6 +3,7 @@
   "version": "2.1.0",
   "description": "Create a promise that can be resolved and rejected outside of it",
   "main": "index.js",
+  "types": "index.d.ts",
   "author": {
     "name": "Eduardo San Martin Morote",
     "email": "posva13@gmail.com"
