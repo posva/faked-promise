@@ -1,6 +1,6 @@
 {
   "name": "faked-promise",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Create a promise that can be resolved and rejected outside of it",
   "main": "index.js",
   "types": "index.d.ts",
