@@ -36,9 +36,9 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "codecov": "^3.3.0",
-    "eslint": "^7.0.0",
-    "eslint-config-posva": "^3.0.1",
+    "codecov": "^3.8.2",
+    "eslint": "^7.30.0",
+    "eslint-config-posva": "^3.0.3",
     "jest": "^27.0.6"
   },
   "repository": {
