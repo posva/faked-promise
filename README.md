@@ -5,6 +5,9 @@
 It basically extracts the `resolve` and `reject` callbacks so you can call them whenever you need.
 ⚠️ The promise can only be resolved once, it's still a regular Promise after all.
 
+> [!TIP]
+> In modern environments, you can directly use [`Promise.withResolvers()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/withResolvers)
+
 ## Installation
 
 ```sh
